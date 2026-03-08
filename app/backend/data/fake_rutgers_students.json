@@ -1,0 +1,962 @@
+[
+  {
+    "student_id": "RU2026001",
+    "name": "Maya Patel",
+    "image_url": "https://images.pexels.com/photos/771317/pexels-photo-771317.jpeg?cs=srgb&dl=pexels-minan1398-771317.jpg&fm=jpg",
+    "year": "Sophomore",
+    "major": "Computer Science",
+    "monthly_budget_usd": 925,
+    "preferred_campus_area": "College Ave",
+    "campus_living_preferences": {
+      "preferred_housing_type": "house share",
+      "bathroom_preference": "doesn't matter",
+      "noise_preference": "social",
+      "wants_kitchen_access": true,
+      "max_walk_to_bus_stop_min": 5,
+      "prefers_furnished": true,
+      "wants_parking": false,
+      "overnight_guests_ok": false
+    },
+    "roommate_preferences": {
+      "traits": [
+        "social but respectful",
+        "keeps common areas tidy",
+        "pet-friendly",
+        "quiet on weeknights"
+      ],
+      "dealbreakers": [
+        "smoking indoors",
+        "very loud late at night"
+      ]
+    },
+    "interests": [
+      "movies",
+      "pickup basketball",
+      "intramural sports",
+      "reading"
+    ],
+    "bio": "Looking for a place close to classes and a roommate who is easy to communicate with.",
+    "image_provider": "Pexels",
+    "image_credit": "Minan1398"
+  },
+  {
+    "student_id": "RU2026002",
+    "name": "Jordan Thompson",
+    "image_url": "https://images.pexels.com/photos/1251861/pexels-photo-1251861.jpeg?cs=srgb&dl=pexels-linkedin-1251861.jpg&fm=jpg",
+    "year": "Junior",
+    "major": "Biology",
+    "monthly_budget_usd": 1200,
+    "preferred_campus_area": "Cook/Douglass",
+    "campus_living_preferences": {
+      "preferred_housing_type": "apartment",
+      "bathroom_preference": "private if possible",
+      "noise_preference": "moderate",
+      "wants_kitchen_access": true,
+      "max_walk_to_bus_stop_min": 12,
+      "prefers_furnished": true,
+      "wants_parking": true,
+      "overnight_guests_ok": false
+    },
+    "roommate_preferences": {
+      "traits": [
+        "quiet on weeknights",
+        "shares chores",
+        "values privacy",
+        "study-focused"
+      ],
+      "dealbreakers": [
+        "not paying bills on time",
+        "very loud late at night"
+      ]
+    },
+    "interests": [
+      "intramural sports",
+      "photography",
+      "museum trips",
+      "hiking"
+    ],
+    "bio": "Looking for a place close to classes and a roommate who is easy to communicate with.",
+    "image_provider": "Pexels",
+    "image_credit": "Linkedin"
+  },
+  {
+    "student_id": "RU2026003",
+    "name": "Avery Nguyen",
+    "image_url": "https://images.pexels.com/photos/5538626/pexels-photo-5538626.jpeg?cs=srgb&dl=pexels-zen-chung-5538626.jpg&fm=jpg",
+    "year": "Senior",
+    "major": "Psychology",
+    "monthly_budget_usd": 1725,
+    "preferred_campus_area": "Busch",
+    "campus_living_preferences": {
+      "preferred_housing_type": "apartment",
+      "bathroom_preference": "private if possible",
+      "noise_preference": "moderate",
+      "wants_kitchen_access": true,
+      "max_walk_to_bus_stop_min": 10,
+      "prefers_furnished": false,
+      "wants_parking": false,
+      "overnight_guests_ok": false
+    },
+    "roommate_preferences": {
+      "traits": [
+        "social but respectful",
+        "shares chores",
+        "clean",
+        "values privacy"
+      ],
+      "dealbreakers": [
+        "never cleans",
+        "very loud late at night"
+      ]
+    },
+    "interests": [
+      "gym",
+      "campus events",
+      "fashion",
+      "museum trips"
+    ],
+    "bio": "Wants a comfortable setup for studying during the week but still likes a fun weekend plan.",
+    "image_provider": "Pexels",
+    "image_credit": "Zen"
+  },
+  {
+    "student_id": "RU2026004",
+    "name": "Priya Chen",
+    "image_url": "https://images.pexels.com/photos/7683872/pexels-photo-7683872.jpeg?cs=srgb&dl=pexels-rdne-7683872.jpg&fm=jpg",
+    "year": "First-year",
+    "major": "Mechanical Engineering",
+    "monthly_budget_usd": 1675,
+    "preferred_campus_area": "Livingston",
+    "campus_living_preferences": {
+      "preferred_housing_type": "suite",
+      "bathroom_preference": "semi-private",
+      "noise_preference": "moderate",
+      "wants_kitchen_access": false,
+      "max_walk_to_bus_stop_min": 15,
+      "prefers_furnished": false,
+      "wants_parking": true,
+      "overnight_guests_ok": false
+    },
+    "roommate_preferences": {
+      "traits": [
+        "music-friendly",
+        "values privacy",
+        "good communicator",
+        "budget-conscious"
+      ],
+      "dealbreakers": [
+        "very loud late at night",
+        "unannounced parties"
+      ]
+    },
+    "interests": [
+      "volunteering",
+      "coffee shops",
+      "yoga",
+      "gaming"
+    ],
+    "bio": "Prefers a balanced home vibe with clear boundaries and shared responsibilities.",
+    "image_provider": "Pexels",
+    "image_credit": "Rdne"
+  },
+  {
+    "student_id": "RU2026005",
+    "name": "Mateo Ramirez",
+    "image_url": "https://images.pexels.com/photos/7092424/pexels-photo-7092424.jpeg?cs=srgb&dl=pexels-rdne-7092424.jpg&fm=jpg",
+    "year": "First-year",
+    "major": "Public Health",
+    "monthly_budget_usd": 1725,
+    "preferred_campus_area": "College Ave",
+    "campus_living_preferences": {
+      "preferred_housing_type": "apartment",
+      "bathroom_preference": "private if possible",
+      "noise_preference": "moderate",
+      "wants_kitchen_access": true,
+      "max_walk_to_bus_stop_min": 5,
+      "prefers_furnished": false,
+      "wants_parking": false,
+      "overnight_guests_ok": true
+    },
+    "roommate_preferences": {
+      "traits": [
+        "non-smoker",
+        "good communicator",
+        "budget-conscious",
+        "values privacy"
+      ],
+      "dealbreakers": [
+        "smoking indoors",
+        "never cleans"
+      ]
+    },
+    "interests": [
+      "yoga",
+      "campus events",
+      "pickup basketball",
+      "volunteering"
+    ],
+    "bio": "Prefers a balanced home vibe with clear boundaries and shared responsibilities.",
+    "image_provider": "Pexels",
+    "image_credit": "Rdne"
+  },
+  {
+    "student_id": "RU2026006",
+    "name": "Elena Bennett",
+    "image_url": "https://images.pexels.com/photos/935948/pexels-photo-935948.jpeg?cs=srgb&dl=pexels-nappy-935948.jpg&fm=jpg",
+    "year": "Sophomore",
+    "major": "Economics",
+    "monthly_budget_usd": 1400,
+    "preferred_campus_area": "Cook/Douglass",
+    "campus_living_preferences": {
+      "preferred_housing_type": "house share",
+      "bathroom_preference": "doesn't matter",
+      "noise_preference": "social",
+      "wants_kitchen_access": true,
+      "max_walk_to_bus_stop_min": 10,
+      "prefers_furnished": true,
+      "wants_parking": true,
+      "overnight_guests_ok": false
+    },
+    "roommate_preferences": {
+      "traits": [
+        "clean",
+        "okay with guests",
+        "good communicator",
+        "social but respectful"
+      ],
+      "dealbreakers": [
+        "unannounced parties",
+        "constant overnight guests"
+      ]
+    },
+    "interests": [
+      "yoga",
+      "baking",
+      "campus events",
+      "intramural sports"
+    ],
+    "bio": "Looking for a place close to classes and a roommate who is easy to communicate with.",
+    "image_provider": "Pexels",
+    "image_credit": "Nappy"
+  },
+  {
+    "student_id": "RU2026007",
+    "name": "Noah Reed",
+    "image_url": "https://images.pexels.com/photos/7972568/pexels-photo-7972568.jpeg?cs=srgb&dl=pexels-george-pak-7972568.jpg&fm=jpg",
+    "year": "Junior",
+    "major": "Journalism and Media Studies",
+    "monthly_budget_usd": 1725,
+    "preferred_campus_area": "Busch",
+    "campus_living_preferences": {
+      "preferred_housing_type": "house share",
+      "bathroom_preference": "doesn't matter",
+      "noise_preference": "social",
+      "wants_kitchen_access": true,
+      "max_walk_to_bus_stop_min": 12,
+      "prefers_furnished": true,
+      "wants_parking": true,
+      "overnight_guests_ok": true
+    },
+    "roommate_preferences": {
+      "traits": [
+        "pet-friendly",
+        "values privacy",
+        "social but respectful",
+        "study-focused"
+      ],
+      "dealbreakers": [
+        "very loud late at night",
+        "constant overnight guests"
+      ]
+    },
+    "interests": [
+      "museum trips",
+      "student orgs",
+      "coding side projects",
+      "running"
+    ],
+    "bio": "Wants a comfortable setup for studying during the week but still likes a fun weekend plan.",
+    "image_provider": "Pexels",
+    "image_credit": "George"
+  },
+  {
+    "student_id": "RU2026008",
+    "name": "Sana Perry",
+    "image_url": "https://images.pexels.com/photos/4778664/pexels-photo-4778664.jpeg?cs=srgb&dl=pexels-cottonbro-4778664.jpg&fm=jpg",
+    "year": "Graduate",
+    "major": "Environmental Science",
+    "monthly_budget_usd": 1775,
+    "preferred_campus_area": "Livingston",
+    "campus_living_preferences": {
+      "preferred_housing_type": "house share",
+      "bathroom_preference": "doesn't matter",
+      "noise_preference": "social",
+      "wants_kitchen_access": true,
+      "max_walk_to_bus_stop_min": 15,
+      "prefers_furnished": false,
+      "wants_parking": true,
+      "overnight_guests_ok": true
+    },
+    "roommate_preferences": {
+      "traits": [
+        "good communicator",
+        "night owl",
+        "values privacy",
+        "clean"
+      ],
+      "dealbreakers": [
+        "unannounced parties",
+        "not paying bills on time"
+      ]
+    },
+    "interests": [
+      "hiking",
+      "running",
+      "museum trips",
+      "movies"
+    ],
+    "bio": "Prefers a balanced home vibe with clear boundaries and shared responsibilities.",
+    "image_provider": "Pexels",
+    "image_credit": "Cottonbro"
+  },
+  {
+    "student_id": "RU2026009",
+    "name": "Lucas Patel",
+    "image_url": "https://images.pexels.com/photos/5676744/pexels-photo-5676744.jpeg?cs=srgb&dl=pexels-ivan-s-5676744.jpg&fm=jpg",
+    "year": "First-year",
+    "major": "Supply Chain Management",
+    "monthly_budget_usd": 1000,
+    "preferred_campus_area": "College Ave",
+    "campus_living_preferences": {
+      "preferred_housing_type": "house share",
+      "bathroom_preference": "doesn't matter",
+      "noise_preference": "social",
+      "wants_kitchen_access": true,
+      "max_walk_to_bus_stop_min": 10,
+      "prefers_furnished": true,
+      "wants_parking": true,
+      "overnight_guests_ok": true
+    },
+    "roommate_preferences": {
+      "traits": [
+        "music-friendly",
+        "non-smoker",
+        "study-focused",
+        "clean"
+      ],
+      "dealbreakers": [
+        "not paying bills on time",
+        "very loud late at night"
+      ]
+    },
+    "interests": [
+      "gym",
+      "gaming",
+      "volunteering",
+      "thrifting"
+    ],
+    "bio": "Looking for a place close to classes and a roommate who is easy to communicate with.",
+    "image_provider": "Pexels",
+    "image_credit": "Ivan"
+  },
+  {
+    "student_id": "RU2026010",
+    "name": "Zoe Thompson",
+    "image_url": "https://images.pexels.com/photos/7092573/pexels-photo-7092573.jpeg?cs=srgb&dl=pexels-rdne-7092573.jpg&fm=jpg",
+    "year": "Junior",
+    "major": "Political Science",
+    "monthly_budget_usd": 950,
+    "preferred_campus_area": "Cook/Douglass",
+    "campus_living_preferences": {
+      "preferred_housing_type": "apartment",
+      "bathroom_preference": "private if possible",
+      "noise_preference": "moderate",
+      "wants_kitchen_access": true,
+      "max_walk_to_bus_stop_min": 12,
+      "prefers_furnished": true,
+      "wants_parking": true,
+      "overnight_guests_ok": false
+    },
+    "roommate_preferences": {
+      "traits": [
+        "study-focused",
+        "shares chores",
+        "music-friendly",
+        "social but respectful"
+      ],
+      "dealbreakers": [
+        "unannounced parties",
+        "constant overnight guests"
+      ]
+    },
+    "interests": [
+      "live music",
+      "student orgs",
+      "movies",
+      "yoga"
+    ],
+    "bio": "Prefers a balanced home vibe with clear boundaries and shared responsibilities.",
+    "image_provider": "Pexels",
+    "image_credit": "Rdne"
+  },
+  {
+    "student_id": "RU2026011",
+    "name": "Nikhil Nguyen",
+    "image_url": "https://images.pexels.com/photos/8199160/pexels-photo-8199160.jpeg?cs=srgb&dl=pexels-yankrukov-8199160.jpg&fm=jpg",
+    "year": "Sophomore",
+    "major": "Pharmacy",
+    "monthly_budget_usd": 1000,
+    "preferred_campus_area": "Busch",
+    "campus_living_preferences": {
+      "preferred_housing_type": "dorm",
+      "bathroom_preference": "shared is okay",
+      "noise_preference": "quiet",
+      "wants_kitchen_access": false,
+      "max_walk_to_bus_stop_min": 15,
+      "prefers_furnished": false,
+      "wants_parking": true,
+      "overnight_guests_ok": true
+    },
+    "roommate_preferences": {
+      "traits": [
+        "non-smoker",
+        "budget-conscious",
+        "night owl",
+        "okay with guests"
+      ],
+      "dealbreakers": [
+        "not paying bills on time",
+        "never cleans"
+      ]
+    },
+    "interests": [
+      "coding side projects",
+      "thrifting",
+      "reading",
+      "concerts"
+    ],
+    "bio": "Looking for a place close to classes and a roommate who is easy to communicate with.",
+    "image_provider": "Pexels",
+    "image_credit": "Yankrukov"
+  },
+  {
+    "student_id": "RU2026012",
+    "name": "Camila Chen",
+    "image_url": "https://images.pexels.com/photos/159775/library-la-trobe-study-students-159775.jpeg?cs=srgb&dl=pexels-pixabay-159775.jpg&fm=jpg",
+    "year": "Sophomore",
+    "major": "Sociology",
+    "monthly_budget_usd": 1100,
+    "preferred_campus_area": "Livingston",
+    "campus_living_preferences": {
+      "preferred_housing_type": "suite",
+      "bathroom_preference": "semi-private",
+      "noise_preference": "moderate",
+      "wants_kitchen_access": false,
+      "max_walk_to_bus_stop_min": 15,
+      "prefers_furnished": true,
+      "wants_parking": true,
+      "overnight_guests_ok": false
+    },
+    "roommate_preferences": {
+      "traits": [
+        "budget-conscious",
+        "likes cooking together",
+        "early riser",
+        "pet-friendly"
+      ],
+      "dealbreakers": [
+        "constant overnight guests",
+        "very loud late at night"
+      ]
+    },
+    "interests": [
+      "museum trips",
+      "reading",
+      "late-night study sessions",
+      "live music"
+    ],
+    "bio": "Wants a comfortable setup for studying during the week but still likes a fun weekend plan.",
+    "image_provider": "Pexels",
+    "image_credit": "Pixabay"
+  },
+  {
+    "student_id": "RU2026013",
+    "name": "Owen Ramirez",
+    "image_url": "https://images.pexels.com/photos/771317/pexels-photo-771317.jpeg?cs=srgb&dl=pexels-minan1398-771317.jpg&fm=jpg",
+    "year": "Junior",
+    "major": "Information Technology and Informatics",
+    "monthly_budget_usd": 875,
+    "preferred_campus_area": "College Ave",
+    "campus_living_preferences": {
+      "preferred_housing_type": "apartment",
+      "bathroom_preference": "private if possible",
+      "noise_preference": "moderate",
+      "wants_kitchen_access": true,
+      "max_walk_to_bus_stop_min": 10,
+      "prefers_furnished": true,
+      "wants_parking": true,
+      "overnight_guests_ok": true
+    },
+    "roommate_preferences": {
+      "traits": [
+        "pet-friendly",
+        "okay with guests",
+        "night owl",
+        "early riser"
+      ],
+      "dealbreakers": [
+        "very loud late at night",
+        "unannounced parties"
+      ]
+    },
+    "interests": [
+      "coding side projects",
+      "yoga",
+      "movies",
+      "volunteering"
+    ],
+    "bio": "Wants a comfortable setup for studying during the week but still likes a fun weekend plan.",
+    "image_provider": "Pexels",
+    "image_credit": "Minan1398"
+  },
+  {
+    "student_id": "RU2026014",
+    "name": "Leila Bennett",
+    "image_url": "https://images.pexels.com/photos/1251861/pexels-photo-1251861.jpeg?cs=srgb&dl=pexels-linkedin-1251861.jpg&fm=jpg",
+    "year": "Senior",
+    "major": "Finance",
+    "monthly_budget_usd": 1825,
+    "preferred_campus_area": "Cook/Douglass",
+    "campus_living_preferences": {
+      "preferred_housing_type": "house share",
+      "bathroom_preference": "doesn't matter",
+      "noise_preference": "social",
+      "wants_kitchen_access": true,
+      "max_walk_to_bus_stop_min": 8,
+      "prefers_furnished": false,
+      "wants_parking": true,
+      "overnight_guests_ok": false
+    },
+    "roommate_preferences": {
+      "traits": [
+        "clean",
+        "okay with guests",
+        "non-smoker",
+        "good communicator"
+      ],
+      "dealbreakers": [
+        "constant overnight guests",
+        "never cleans"
+      ]
+    },
+    "interests": [
+      "live music",
+      "gaming",
+      "fashion",
+      "baking"
+    ],
+    "bio": "Looking for a place close to classes and a roommate who is easy to communicate with.",
+    "image_provider": "Pexels",
+    "image_credit": "Linkedin"
+  },
+  {
+    "student_id": "RU2026015",
+    "name": "Marcus Reed",
+    "image_url": "https://images.pexels.com/photos/5538626/pexels-photo-5538626.jpeg?cs=srgb&dl=pexels-zen-chung-5538626.jpg&fm=jpg",
+    "year": "Sophomore",
+    "major": "Exercise Science",
+    "monthly_budget_usd": 975,
+    "preferred_campus_area": "Busch",
+    "campus_living_preferences": {
+      "preferred_housing_type": "house share",
+      "bathroom_preference": "doesn't matter",
+      "noise_preference": "social",
+      "wants_kitchen_access": true,
+      "max_walk_to_bus_stop_min": 15,
+      "prefers_furnished": false,
+      "wants_parking": false,
+      "overnight_guests_ok": true
+    },
+    "roommate_preferences": {
+      "traits": [
+        "good communicator",
+        "social but respectful",
+        "values privacy",
+        "clean"
+      ],
+      "dealbreakers": [
+        "not paying bills on time",
+        "constant overnight guests"
+      ]
+    },
+    "interests": [
+      "hiking",
+      "pickup basketball",
+      "volunteering",
+      "live music"
+    ],
+    "bio": "Wants a comfortable setup for studying during the week but still likes a fun weekend plan.",
+    "image_provider": "Pexels",
+    "image_credit": "Zen"
+  },
+  {
+    "student_id": "RU2026016",
+    "name": "Aisha Perry",
+    "image_url": "https://images.pexels.com/photos/7683872/pexels-photo-7683872.jpeg?cs=srgb&dl=pexels-rdne-7683872.jpg&fm=jpg",
+    "year": "Graduate",
+    "major": "Cell Biology and Neuroscience",
+    "monthly_budget_usd": 1675,
+    "preferred_campus_area": "Livingston",
+    "campus_living_preferences": {
+      "preferred_housing_type": "apartment",
+      "bathroom_preference": "private if possible",
+      "noise_preference": "moderate",
+      "wants_kitchen_access": true,
+      "max_walk_to_bus_stop_min": 8,
+      "prefers_furnished": false,
+      "wants_parking": false,
+      "overnight_guests_ok": false
+    },
+    "roommate_preferences": {
+      "traits": [
+        "night owl",
+        "study-focused",
+        "keeps common areas tidy",
+        "early riser"
+      ],
+      "dealbreakers": [
+        "very loud late at night",
+        "smoking indoors"
+      ]
+    },
+    "interests": [
+      "gym",
+      "concerts",
+      "student orgs",
+      "coffee shops"
+    ],
+    "bio": "Hoping to live near good food spots and reliable bus routes.",
+    "image_provider": "Pexels",
+    "image_credit": "Rdne"
+  },
+  {
+    "student_id": "RU2026017",
+    "name": "Theo Patel",
+    "image_url": "https://images.pexels.com/photos/7092424/pexels-photo-7092424.jpeg?cs=srgb&dl=pexels-rdne-7092424.jpg&fm=jpg",
+    "year": "Graduate",
+    "major": "History",
+    "monthly_budget_usd": 1650,
+    "preferred_campus_area": "College Ave",
+    "campus_living_preferences": {
+      "preferred_housing_type": "house share",
+      "bathroom_preference": "doesn't matter",
+      "noise_preference": "social",
+      "wants_kitchen_access": true,
+      "max_walk_to_bus_stop_min": 5,
+      "prefers_furnished": true,
+      "wants_parking": true,
+      "overnight_guests_ok": true
+    },
+    "roommate_preferences": {
+      "traits": [
+        "night owl",
+        "pet-friendly",
+        "social but respectful",
+        "values privacy"
+      ],
+      "dealbreakers": [
+        "unannounced parties",
+        "not paying bills on time"
+      ]
+    },
+    "interests": [
+      "reading",
+      "concerts",
+      "volunteering",
+      "thrifting"
+    ],
+    "bio": "Looking for a place close to classes and a roommate who is easy to communicate with.",
+    "image_provider": "Pexels",
+    "image_credit": "Rdne"
+  },
+  {
+    "student_id": "RU2026018",
+    "name": "Valeria Thompson",
+    "image_url": "https://images.pexels.com/photos/935948/pexels-photo-935948.jpeg?cs=srgb&dl=pexels-nappy-935948.jpg&fm=jpg",
+    "year": "Graduate",
+    "major": "Marketing",
+    "monthly_budget_usd": 1000,
+    "preferred_campus_area": "Cook/Douglass",
+    "campus_living_preferences": {
+      "preferred_housing_type": "house share",
+      "bathroom_preference": "doesn't matter",
+      "noise_preference": "social",
+      "wants_kitchen_access": true,
+      "max_walk_to_bus_stop_min": 5,
+      "prefers_furnished": true,
+      "wants_parking": false,
+      "overnight_guests_ok": false
+    },
+    "roommate_preferences": {
+      "traits": [
+        "quiet on weeknights",
+        "early riser",
+        "values privacy",
+        "night owl"
+      ],
+      "dealbreakers": [
+        "not paying bills on time",
+        "constant overnight guests"
+      ]
+    },
+    "interests": [
+      "intramural sports",
+      "baking",
+      "reading",
+      "volunteering"
+    ],
+    "bio": "Wants a comfortable setup for studying during the week but still likes a fun weekend plan.",
+    "image_provider": "Pexels",
+    "image_credit": "Nappy"
+  },
+  {
+    "student_id": "RU2026019",
+    "name": "Ethan Nguyen",
+    "image_url": "https://images.pexels.com/photos/7972568/pexels-photo-7972568.jpeg?cs=srgb&dl=pexels-george-pak-7972568.jpg&fm=jpg",
+    "year": "Senior",
+    "major": "Nursing",
+    "monthly_budget_usd": 1650,
+    "preferred_campus_area": "Busch",
+    "campus_living_preferences": {
+      "preferred_housing_type": "house share",
+      "bathroom_preference": "doesn't matter",
+      "noise_preference": "social",
+      "wants_kitchen_access": true,
+      "max_walk_to_bus_stop_min": 5,
+      "prefers_furnished": false,
+      "wants_parking": false,
+      "overnight_guests_ok": false
+    },
+    "roommate_preferences": {
+      "traits": [
+        "okay with guests",
+        "budget-conscious",
+        "pet-friendly",
+        "night owl"
+      ],
+      "dealbreakers": [
+        "smoking indoors",
+        "very loud late at night"
+      ]
+    },
+    "interests": [
+      "museum trips",
+      "gym",
+      "volunteering",
+      "hiking"
+    ],
+    "bio": "Prefers a balanced home vibe with clear boundaries and shared responsibilities.",
+    "image_provider": "Pexels",
+    "image_credit": "George"
+  },
+  {
+    "student_id": "RU2026020",
+    "name": "Riya Chen",
+    "image_url": "https://images.pexels.com/photos/4778664/pexels-photo-4778664.jpeg?cs=srgb&dl=pexels-cottonbro-4778664.jpg&fm=jpg",
+    "year": "Sophomore",
+    "major": "Industrial Engineering",
+    "monthly_budget_usd": 1025,
+    "preferred_campus_area": "Livingston",
+    "campus_living_preferences": {
+      "preferred_housing_type": "suite",
+      "bathroom_preference": "semi-private",
+      "noise_preference": "moderate",
+      "wants_kitchen_access": false,
+      "max_walk_to_bus_stop_min": 5,
+      "prefers_furnished": false,
+      "wants_parking": false,
+      "overnight_guests_ok": true
+    },
+    "roommate_preferences": {
+      "traits": [
+        "night owl",
+        "budget-conscious",
+        "non-smoker",
+        "keeps common areas tidy"
+      ],
+      "dealbreakers": [
+        "constant overnight guests",
+        "very loud late at night"
+      ]
+    },
+    "interests": [
+      "movies",
+      "hiking",
+      "student orgs",
+      "volunteering"
+    ],
+    "bio": "Wants a comfortable setup for studying during the week but still likes a fun weekend plan.",
+    "image_provider": "Pexels",
+    "image_credit": "Cottonbro"
+  },
+  {
+    "student_id": "RU2026021",
+    "name": "Gabriel Ramirez",
+    "image_url": "https://images.pexels.com/photos/5676744/pexels-photo-5676744.jpeg?cs=srgb&dl=pexels-ivan-s-5676744.jpg&fm=jpg",
+    "year": "Junior",
+    "major": "Urban Planning and Design",
+    "monthly_budget_usd": 1375,
+    "preferred_campus_area": "College Ave",
+    "campus_living_preferences": {
+      "preferred_housing_type": "house share",
+      "bathroom_preference": "doesn't matter",
+      "noise_preference": "social",
+      "wants_kitchen_access": true,
+      "max_walk_to_bus_stop_min": 15,
+      "prefers_furnished": false,
+      "wants_parking": false,
+      "overnight_guests_ok": true
+    },
+    "roommate_preferences": {
+      "traits": [
+        "keeps common areas tidy",
+        "early riser",
+        "good communicator",
+        "music-friendly"
+      ],
+      "dealbreakers": [
+        "unannounced parties",
+        "never cleans"
+      ]
+    },
+    "interests": [
+      "gaming",
+      "cooking",
+      "movies",
+      "concerts"
+    ],
+    "bio": "Hoping to live near good food spots and reliable bus routes.",
+    "image_provider": "Pexels",
+    "image_credit": "Ivan"
+  },
+  {
+    "student_id": "RU2026022",
+    "name": "Amara Bennett",
+    "image_url": "https://images.pexels.com/photos/7092573/pexels-photo-7092573.jpeg?cs=srgb&dl=pexels-rdne-7092573.jpg&fm=jpg",
+    "year": "Junior",
+    "major": "Mathematics",
+    "monthly_budget_usd": 1000,
+    "preferred_campus_area": "Cook/Douglass",
+    "campus_living_preferences": {
+      "preferred_housing_type": "dorm",
+      "bathroom_preference": "shared is okay",
+      "noise_preference": "quiet",
+      "wants_kitchen_access": false,
+      "max_walk_to_bus_stop_min": 12,
+      "prefers_furnished": true,
+      "wants_parking": false,
+      "overnight_guests_ok": false
+    },
+    "roommate_preferences": {
+      "traits": [
+        "social but respectful",
+        "night owl",
+        "values privacy",
+        "clean"
+      ],
+      "dealbreakers": [
+        "smoking indoors",
+        "never cleans"
+      ]
+    },
+    "interests": [
+      "thrifting",
+      "student orgs",
+      "hiking",
+      "running"
+    ],
+    "bio": "Looking for a place close to classes and a roommate who is easy to communicate with.",
+    "image_provider": "Pexels",
+    "image_credit": "Rdne"
+  },
+  {
+    "student_id": "RU2026023",
+    "name": "Julian Reed",
+    "image_url": "https://images.pexels.com/photos/8199160/pexels-photo-8199160.jpeg?cs=srgb&dl=pexels-yankrukov-8199160.jpg&fm=jpg",
+    "year": "First-year",
+    "major": "English",
+    "monthly_budget_usd": 1275,
+    "preferred_campus_area": "Busch",
+    "campus_living_preferences": {
+      "preferred_housing_type": "apartment",
+      "bathroom_preference": "private if possible",
+      "noise_preference": "moderate",
+      "wants_kitchen_access": true,
+      "max_walk_to_bus_stop_min": 10,
+      "prefers_furnished": true,
+      "wants_parking": false,
+      "overnight_guests_ok": true
+    },
+    "roommate_preferences": {
+      "traits": [
+        "clean",
+        "non-smoker",
+        "quiet on weeknights",
+        "likes cooking together"
+      ],
+      "dealbreakers": [
+        "never cleans",
+        "not paying bills on time"
+      ]
+    },
+    "interests": [
+      "student orgs",
+      "gaming",
+      "yoga",
+      "photography"
+    ],
+    "bio": "Prefers a balanced home vibe with clear boundaries and shared responsibilities.",
+    "image_provider": "Pexels",
+    "image_credit": "Yankrukov"
+  },
+  {
+    "student_id": "RU2026024",
+    "name": "Nina Perry",
+    "image_url": "https://images.pexels.com/photos/159775/library-la-trobe-study-students-159775.jpeg?cs=srgb&dl=pexels-pixabay-159775.jpg&fm=jpg",
+    "year": "Junior",
+    "major": "Data Science",
+    "monthly_budget_usd": 900,
+    "preferred_campus_area": "Livingston",
+    "campus_living_preferences": {
+      "preferred_housing_type": "dorm",
+      "bathroom_preference": "shared is okay",
+      "noise_preference": "quiet",
+      "wants_kitchen_access": false,
+      "max_walk_to_bus_stop_min": 15,
+      "prefers_furnished": true,
+      "wants_parking": false,
+      "overnight_guests_ok": false
+    },
+    "roommate_preferences": {
+      "traits": [
+        "okay with guests",
+        "quiet on weeknights",
+        "social but respectful",
+        "night owl"
+      ],
+      "dealbreakers": [
+        "not paying bills on time",
+        "very loud late at night"
+      ]
+    },
+    "interests": [
+      "intramural sports",
+      "thrifting",
+      "gym",
+      "coffee shops"
+    ],
+    "bio": "Hoping to live near good food spots and reliable bus routes.",
+    "image_provider": "Pexels",
+    "image_credit": "Pixabay"
+  }
+]

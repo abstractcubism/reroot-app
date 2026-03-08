@@ -1,0 +1,4 @@
+id,title,price,neighborhood,campus,livingType,distanceToCampus,availableRooms
+local_1,47 Guilden St,980,New Brunswick,college_avenue,off_campus,0.6,2
+local_2,9 Richardson St,910,Piscataway,busch,off_campus,0.7,1
+local_3,Bishop House,1340,Livingston Campus,livingston,on_campus,0.2,6
