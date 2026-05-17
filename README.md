@@ -1,6 +1,6 @@
 # Reroot
 
-A housing and roommate matching app for Rutgers University students. Built at a hackathon.
+A housing and roommate matching app for students. Built for Rutgers Techstart 2026 and placed top 5.
 
 Students enter their campus, budget, traits, and interests and reroot ranks compatible roommates and off/on-campus listings using a scoring engine, with OpenAI-powered re-ranking on top.
 
@@ -66,7 +66,7 @@ Copy `.env.example` to `.env` in `app/backend/`:
 
 ## What I'd add to improve
 
-- User accounts and persistent saved matches
+- User accounts and persistent saved matches (currently in falsified 'signed in with Rutgers' state)
 - Real listing data via a live scraper (current data is from a one-time scrape) or housing API
 - A compatibility quiz onboarding flow
 - Deployed demo
