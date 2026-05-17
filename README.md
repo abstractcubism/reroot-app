@@ -69,4 +69,5 @@ Copy `.env.example` to `.env` in `app/backend/`:
 - User accounts and persistent saved matches (currently in falsified 'signed in with Rutgers' state)
 - Real listing data via a live scraper (current data is from a one-time scrape) or housing API
 - A compatibility quiz onboarding flow
+- Payment processing connection through Stripe
 - Deployed demo
