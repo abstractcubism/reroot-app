@@ -8,5 +8,20 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/main.tsx"></script>
+
+    <!-- <script>
+      document.addEventListener('keydown', (e) => {
+        if (e.key === '`') {
+          if (window._scrollInterval) {
+            clearInterval(window._scrollInterval);
+            window._scrollInterval = null;
+          } else {
+            window._scrollInterval = setInterval(() => {
+              window.scrollBy({ top: 10, behavior: 'smooth' });
+            }, 10);
+          }
+        }
+      });
+    </script> -->
   </body>
 </html>

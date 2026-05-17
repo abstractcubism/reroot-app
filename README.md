@@ -1,59 +1,72 @@
-# Reroot Web App
+# Reroot
 
-This project now runs as:
-- Frontend: React + Vite + Tailwind (`app/frontend`)
-- Backend: Flask API (`app/backend`)
+A housing and roommate matching app for Rutgers University students. Built at a hackathon.
 
-## 1) Backend setup (with venv)
+Students enter their campus, budget, traits, and interests and reroot ranks compatible roommates and off/on-campus listings using a scoring engine, with OpenAI-powered re-ranking on top.
 
-```powershell
+## Features
+
+- Browse housing listings across all four Rutgers campuses (College Ave, Busch, Cook/Douglass, Livingston)
+- Filter by on-campus vs. off-campus, price, and commute distance
+- Find compatible roommates matched by budget, campus preference, lifestyle traits, and interests
+- Like/dislike feedback loop that adjusts match rankings in real time
+- AI re-ranking via OpenAI (falls back to built-in heuristic ranker if no key is set)
+
+## Stack
+
+- **Frontend**: React 18, TypeScript, Vite, Tailwind CSS
+- **Backend**: Python, Flask
+- **AI**: OpenAI GPT-4o-mini (optional)
+
+## Running with Docker
+
+```bash
+cp app/backend/.env.example app/backend/.env
+# Add your OPENAI_API_KEY to app/backend/.env (optional)
+
+docker compose up --build
+```
+
+- Frontend: [http://localhost](http://localhost)
+- Backend API: [http://localhost:8000](http://localhost:8000)
+
+## Running locally
+
+**Backend**
+
+```bash
 cd app/backend
 python -m venv .venv
-.\.venv\Scripts\Activate.ps1
+.\.venv\Scripts\Activate.ps1   # Windows
+# source .venv/bin/activate    # macOS/Linux
 pip install -r requirements.txt
 python server.py
 ```
 
-Backend runs at `http://127.0.0.1:8000`.
+**Frontend** (separate terminal)
 
-Before starting backend, put your key in `app/backend/.env`:
-
-```dotenv
-OPENAI_API_KEY=your_openai_api_key_here
-```
-
-Optional for AI matchmaking:
-
-```powershell
-$env:OPENAI_MATCH_MODEL = "gpt-4o-mini"
-```
-
-If no OpenAI key is set, matchmaking still works using a built-in heuristic ranker.
-
-## 2) Frontend setup
-
-Open a second terminal:
-
-```powershell
+```bash
 cd app/frontend
 npm install
 npm run dev
 ```
 
-Frontend runs at `http://localhost:5173`.
+Frontend runs at `http://localhost:5173`. API calls are proxied to the Flask backend during dev.
 
-`vite.config.ts` includes a proxy so `/api/*` routes forward to the Flask backend during local development.
+## Environment variables
 
-## 3) Build frontend
+Copy `.env.example` to `.env` in `app/backend/`:
 
-```powershell
-cd app/frontend
-npm run build
-```
+| Variable | Default | Description |
+|---|---|---|
+| `OPENAI_API_KEY` | — | Enables AI-powered match re-ranking (optional) |
+| `OPENAI_MATCH_MODEL` | `gpt-4o-mini` | Which OpenAI model to use for ranking |
+| `PORT` | `8000` | Backend port |
+| `FLASK_DEBUG` | `1` | Set to `0` in production |
 
-## 4) Type-check frontend
+## What I'd add to improve
 
-```powershell
-cd app/frontend
-npm run typecheck
-```
+- User accounts and persistent saved matches
+- Real listing data via a live scraper (current data is from a one-time scrape) or housing API
+- A compatibility quiz onboarding flow
+- Deployed demo

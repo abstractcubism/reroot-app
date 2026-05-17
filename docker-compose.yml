@@ -2,6 +2,9 @@ services:
   backend:
     build: ./app/backend
     env_file: ./app/backend/.env
+    environment:
+      - HOST=0.0.0.0
+      - FLASK_DEBUG=0
     ports:
       - "8000:8000"
 
